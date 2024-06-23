@@ -1,0 +1,84 @@
+.latestf {
+  /* background: #d9d9d9; */
+  background: rgb(227 224 224 / 59%);
+  border-width: 0.2rem;
+  border-style: none;
+}
+.latestfundries {
+  /* padding-left: 3rem; */
+}
+.latestfundries .card {
+  /* width: 24rem; */
+  width: 21rem;
+  height: 34rem;
+  background-color: rgb(255, 255, 255);
+  border-width: 0.2rem;
+  border-style: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  /* padding: 0.2rem 0.5rem; */
+}
+.card .card-in {
+  background-color: #fff;
+  /* width: 24rem; */
+  width: 21rem;
+  height: 12rem;
+  /* margin: 1rem; */
+  border-radius: 0.5rem;
+}
+.card-in img {
+  /* width: 25rem; */
+  width: 21rem;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+.card-in .body {
+  padding: 1rem 2rem;
+}
+.body h1 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+.body .same {
+  margin: 0.5rem 0;
+  margin-bottom: 1rem;
+  color: grey;
+  letter-spacing: 0.2px;
+}
+.body .donation {
+  color: rgb(190, 188, 188);
+}
+.body .line {
+  width: 17rem;
+  height: 0.2rem;
+  color: yellow;
+  background: grey;
+}
+
+.react-multi-carousel-item {
+  width: 300px;
+}
+.latest {
+  padding: 3rem 0;
+  text-align: center;
+}
+.latest h2 {
+  font-size: 2.5rem;
+  font-family: emoji;
+}
+.latest .latest-text {
+  color: #474646;
+  font-size: 2rem;
+  font-family: emoji;
+  letter-spacing: 0.1rem;
+  padding: 0rem 1rem;
+  line-height: 3rem;
+}
+.latest .latest-link {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+.latest-link a {
+  color: #7272e3;
+  text-decoration: underline;
+}

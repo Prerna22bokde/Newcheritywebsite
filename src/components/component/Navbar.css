@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: muli, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  text-decoration: none;
+}
+
+.Nav {
+  display: grid;
+  grid-template-columns: 1rem 2fr 3fr 0rem;
+  padding: 0.7rem 3rem;
+  background-color: lavender;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  width: 100%;
+}
+
+.Nav-logo {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.Nav-logo h1 {
+  /* font-size: 2rem; */
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.Nav-logo img {
+  /* width: 4rem; */
+  width: 7rem;
+}
+
+.Nav-list ul {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 4rem; */
+  height: 7rem;
+  list-style: none;
+  font-weight: 600;
+}
+
+.Nav-list ul li a {
+  /* color: white; */
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.Nav-list ul li a:hover {
+  color: #6a8ec7;
+}
+
+.hamburger {
+  display: none;
+  /* position: relative;
+  width: 3rem;
+  height: 2rem;
+  left: 8rem;
+  top: 0rem;
+  float: right;
+  cursor: pointer; */
+}
+
+/* media queries */
+/* down in max, up in min */
+
+/* s */
+@media (max-width: 400px) {
+  .Nav {
+    display: grid;
+    grid-template-columns: 0rem 1fr 1fr 0rem;
+    padding: 0rem 0rem;
+    background-color: lavender;
+  }
+  .mobile_navlist ul li {
+    padding: 2rem 2rem !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  /* .mobile_navlist ul li a {
+    font-size: 1.5rem !important;
+  } */
+  .mobile_navlist {
+    width: 15rem !important;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* md */
+@media (max-width: 768px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .hamburger {
+    display: flex;
+    position: absolute;
+    /* font-size: 2rem;
+    padding-top: 1rem; */
+    font-size: 3rem;
+    padding-top: 2rem;
+    right: 4rem;
+  }
+
+  .Nav-list ul {
+    display: none;
+  }
+  .mobile_navlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 4rem;
+    right: 0rem;
+    width: 20rem;
+    /* height: 100vh; */
+    height: 95vh;
+    background-color: lavender;
+    box-shadow: 0 4rem 6rem black;
+    padding: 4rem 0 0 1rem;
+    list-style: none;
+    font-size: 1.2rem;
+    z-index: 1;
+  }
+  .react-multiple-carousel__arrow--right {
+    z-index: 1;
+  }
+
+  .mobile_navlist ul li {
+    padding: 1rem 5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+}

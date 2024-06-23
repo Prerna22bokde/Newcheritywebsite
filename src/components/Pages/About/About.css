@@ -1,0 +1,39 @@
+.history {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* padding: 0rem 10rem; */
+}
+.ourhistory {
+  padding: 5rem 10rem;
+}
+.ourhistory h2 {
+  font-size: 4rem;
+  margin: 0;
+  text-transform: capitalize;
+  /* font-family: "revicons"; */
+  font-family: "Dosis", sans-serif;
+}
+.ourhistory h2 span {
+}
+.ourhistory p {
+  color: grey;
+  margin: 3rem 0;
+}
+.contain-1 {
+  margin: 0 1rem;
+}
+.contain-2 {
+  margin: 0 2rem;
+}
+.main-text {
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+}
+.short-text {
+  letter-spacing: 0.05rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 100;
+  font-family: sans-serif;
+}

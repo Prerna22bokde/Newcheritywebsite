@@ -1,0 +1,67 @@
+.fundraisercamp {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  padding: 5rem 10rem;
+}
+.sec-1 {
+  padding: 1rem 6rem;
+  text-align: left;
+}
+.sec-1 span {
+  font-size: 1.5rem;
+  color: grey;
+}
+.sec-1 h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: system-ui;
+}
+.sec-1 p {
+  font-size: 2.3rem;
+  font-weight: 200;
+  font-family: system-ui;
+}
+
+/* ------------------media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .fundraisercamp {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5rem 1rem;
+  }
+  .sec-1 {
+    padding: 1rem 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .fundraisercamp {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5rem 3rem;
+  }
+  .sec-1 {
+    padding: 1rem 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .fundraisercamp {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sec-1 {
+    padding: 1rem 4rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .sec-1 {
+    padding: 1rem 10rem;
+  }
+}

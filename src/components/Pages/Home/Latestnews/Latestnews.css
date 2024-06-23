@@ -1,0 +1,112 @@
+.latestnews {
+  margin: 4rem 6rem;
+}
+.latestnews .title {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: system-ui;
+  margin-bottom: 3rem;
+}
+.latestnews .row-2 {
+  margin: 0;
+}
+.news {
+}
+.news-img img {
+  width: 22rem;
+}
+.news .body {
+  width: 22rem;
+  margin: 1rem 0;
+}
+/* .news .body h2 {
+    font-family: ui-monospace;
+    font-size: 1.3rem;
+  } */
+.news .date {
+  color: grey;
+  margin: 1rem 0;
+}
+.news .dis {
+  color: grey;
+  margin: 1.5rem 0;
+  letter-spacing: 0.03rem;
+  font-size: 15px;
+}
+
+/* ------------------media query */
+
+/* Extra small devices (phones, 450px and down) */
+@media only screen and (max-width: 450px) {
+  .latestnews {
+    margin: 4rem 1rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .row-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .news-img img {
+    width: 22rem;
+  }
+  .news .body {
+    width: 22rem;
+    margin: 1rem 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .row-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .news-img img {
+    width: 15rem;
+  }
+  .news .body {
+    width: 15rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .news-img img {
+    width: 20rem;
+  }
+  .news .body {
+    width: 20rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .row-2 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .latestnews {
+    margin: 4rem 2rem;
+  }
+  .news-img img {
+    width: 18rem;
+  }
+  .news .body {
+    width: 18rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .latestnews {
+    margin: 4rem 6rem;
+  }
+  .news-img img {
+    width: 20rem;
+  }
+  .news .body {
+    width: 20rem;
+  }
+}

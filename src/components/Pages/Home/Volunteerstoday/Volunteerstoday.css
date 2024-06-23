@@ -1,0 +1,122 @@
+.full-volunteer-container {
+  background-image: url("../../../Images/voluntree.jpg");
+  background-repeat: no-repeat;
+  height: 75vh;
+  margin-top: 3rem;
+  background-position: center;
+}
+
+.full-volunteer-container .full-up-img {
+  width: 100%;
+  background: #6969a9;
+  position: absolute;
+  opacity: 90%;
+  height: 75vh;
+}
+.full-volunteer-container .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  /* padding: 4rem 3rem; */
+  padding: 4rem 11rem;
+}
+.block img {
+  height: 55vh;
+  border-radius: 0.5rem;
+  width: 58rem;
+  /* width: 58rem; */
+  box-shadow: 0 4px 30px -5px black;
+}
+.block-f {
+  z-index: 1;
+  color: white;
+  height: 55vh;
+  padding: 0 3rem;
+}
+.shortform h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+.forminput {
+  background: transparent;
+  border: 2px solid white;
+  /* width: 29rem; */
+  width: 45rem;
+  margin: 0.5rem 0;
+  padding: 1.2rem 0.5rem;
+}
+
+.forminput::placeholder {
+  color: white;
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+.shortform button {
+  margin-top: 1rem;
+  color: black;
+  background-color: white;
+}
+.shortform button:hover {
+  color: white;
+}
+
+/* ------------------media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .full-volunteer-container {
+    height: 130vh;
+  }
+  .full-volunteer-container .full-up-img {
+    height: 130vh;
+  }
+  .container {
+    margin: 4rem 0rem;
+  }
+  .full-volunteer-container .row {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+
+  .block-f {
+    padding: 0 0.5rem;
+  }
+  .shortform h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3rem;
+  }
+  .forminput {
+    background: transparent;
+    border: 2px solid white;
+    margin: 0.5rem 0;
+    text-align: start;
+    padding: 1rem 0.5rem;
+    width: 43rem;
+  }
+  .shortform button {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .block {
+    margin-left: 0rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
