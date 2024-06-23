@@ -29,6 +29,7 @@
   font-size: 2.2rem;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
+  font-family: math;
 }
 .short-text {
   letter-spacing: 0.05rem;
@@ -36,4 +37,115 @@
   line-height: 2.5rem;
   font-weight: 100;
   font-family: sans-serif;
+}
+
+/* --------------------PHOTOPAGE---------- */
+.page {
+  margin: 8rem 10rem;
+}
+
+/* ------------------media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .history {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ourhistory {
+    padding: 5rem 2rem;
+  }
+  .contain-1 {
+    margin: 0 0rem;
+  }
+  .main-text {
+    font-family: math;
+  }
+  .contain-2 {
+    margin: 0 0rem;
+  }
+  .ourhistory p {
+    margin: 2rem 0;
+  }
+  /* ------------------- */
+  .page {
+    margin: 8rem 2rem;
+  }
+  .page img {
+    height: 110vh;
+    object-fit: cover;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .history {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ourhistory {
+    padding: 5rem 5rem;
+  }
+  .contain-1 {
+    margin: 0 0rem;
+  }
+  .contain-2 {
+    margin: 0 0rem;
+  }
+  .ourhistory p {
+    margin: 2rem 0;
+  }
+  /* ------------------- */
+  .page {
+    margin: 8rem 5rem;
+  }
+  .page img {
+    height: 110vh;
+    object-fit: cover;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .history {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ourhistory {
+    padding: 5rem 3rem;
+  }
+  .contain-2 {
+    margin: 0 1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ourhistory {
+    padding: 5rem 5rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .ourhistory {
+    padding: 5rem 10rem;
+  }
+  .ourhistory p {
+    color: grey;
+    margin: 3rem 0;
+  }
+  .contain-1 {
+    margin: 0 1rem;
+  }
+  .contain-2 {
+    margin: 0 2rem;
+  }
+  /* ------------------- */
+  /* --------------------PHOTOPAGE---------- */
+  .page {
+    margin: 8rem 10rem;
+  }
+  .page img {
+    width: 100%;
+  }
 }

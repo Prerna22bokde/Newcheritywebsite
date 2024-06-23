@@ -6,7 +6,6 @@ export default function Gallerycollect(props) {
       <div className="box-imggallery">
         <img src={props.img} alt="" />
       </div>
-      <div></div>
     </>
   );
 }
