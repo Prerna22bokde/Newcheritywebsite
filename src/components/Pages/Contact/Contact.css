@@ -1,0 +1,135 @@
+.formpage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 9rem 10rem;
+}
+.form {
+  display: grid;
+}
+.form input {
+  height: 6rem;
+}
+.form_entry {
+  border: 1.5px solid #c1bfbf;
+  margin: 0.5rem;
+  width: 90%;
+  padding: 1rem 1rem;
+}
+.form_entry::placeholder {
+  color: grey;
+  font-size: 1.5rem;
+}
+.form button {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  background-color: lavender;
+  width: 45%;
+  padding: 2rem 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.text-box {
+  background-color: #ceced7bd;
+  height: 55vh;
+  margin: auto;
+  text-align: center;
+  padding: 6rem 7rem;
+}
+.text-box img {
+  margin: auto;
+}
+.text-box h3 {
+  font-size: 2.5rem;
+  margin: 1.5rem;
+}
+.text-box p {
+  font-size: 1.2rem;
+}
+
+/* ------------------media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+  .form button {
+    width: 55% !important;
+    padding: 1rem 1rem !important;
+    font-size: 1.5rem;
+  }
+  .text-box {
+    height: 35vh !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .formpage {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 6rem 3rem;
+  }
+  .form_entry {
+    width: 100%;
+  }
+  .form button {
+    margin: 1.5rem 0;
+  }
+  .text-box {
+    padding: 5rem 3rem;
+    height: 50vh;
+    margin-left: 0rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .formpage {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 6rem 8rem;
+  }
+  .form_entry {
+    width: 100%;
+    margin: 0.5rem auto;
+  }
+  .form button {
+    margin: 1.5rem 0;
+  }
+  .text-box {
+    padding: 5rem 3rem;
+    height: 50vh;
+    margin-left: 0rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .formpage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 9rem 2rem;
+  }
+  .form_entry {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+  .form button {
+    margin: 1rem 2rem;
+    width: 70%;
+  }
+  .text-box {
+    margin-left: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .formpage {
+    padding: 9rem 5rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .formpage {
+    padding: 9rem 10rem;
+  }
+}
