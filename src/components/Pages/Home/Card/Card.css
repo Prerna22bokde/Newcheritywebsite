@@ -1,31 +1,33 @@
 .row-2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 2rem 2rem;
+  margin: 2rem 3rem;
 }
 .row-2 .col-1 {
   display: flex;
 }
 .col-1 .icon {
   padding: 0 1rem;
-  font-size: 2rem;
+  font-size: 4rem;
   color: #7272e3;
   margin: 1rem 0;
 }
 .body h3 {
   font-family: ui-monospace;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 .body .para {
   margin-bottom: 2rem;
   color: grey;
+  font-size: 1.5rem;
 }
 .body p a {
   color: #7272e3;
   text-decoration: underline;
+  font-size: 1.7rem;
 }
 .cardshow {
-  padding: 2rem 2rem;
+  padding: 2rem 8rem;
 }
 
 /* // ------------------media query */
@@ -37,21 +39,28 @@
   .container {
     margin: 4rem 0rem;
   }
+  .cardshow {
+    padding: 2rem 0rem;
+  }
 }
 
 /* //  Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .row-2 {
+  .container .row-2 {
     grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .cardshow {
+    padding: 2rem 1rem;
   }
   .container {
-    margin: 4rem 0rem;
+    margin: 4rem auto;
   }
 }
 
 /* //  Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .row-2 {
+  .container .row-2 {
     grid-template-columns: repeat(3, 1fr);
   }
   .cardshow {
@@ -68,4 +77,9 @@
 
 /* //  Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .row-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 3rem;
+  }
 }
