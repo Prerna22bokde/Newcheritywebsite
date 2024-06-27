@@ -1,8 +1,8 @@
 .latestnews {
-  margin: 4rem 6rem;
+  margin: 4rem 10rem;
 }
 .latestnews .title {
-  font-size: 2rem;
+  font-size: 3.3rem;
   font-weight: 400;
   font-family: system-ui;
   margin-bottom: 3rem;
@@ -19,6 +19,10 @@
   width: 22rem;
   margin: 1rem 0;
 }
+.news .body h3 {
+  font-family: ui-monospace;
+  font-size: 2.2rem;
+}
 /* .news .body h2 {
     font-family: ui-monospace;
     font-size: 1.3rem;
@@ -26,12 +30,13 @@
 .news .date {
   color: grey;
   margin: 1rem 0;
+  font-size: 1.5rem;
 }
 .news .dis {
   color: grey;
   margin: 1.5rem 0;
   letter-spacing: 0.03rem;
-  font-size: 15px;
+  font-size: 1.4rem;
 }
 
 /* ------------------media query */
@@ -48,11 +53,16 @@
   .row-2 {
     grid-template-columns: repeat(1, 1fr);
   }
+  .latestnews {
+    margin: 4rem 2rem;
+  }
   .news-img img {
-    width: 22rem;
+    /* width: 45rem; */
+    width: 100%;
   }
   .news .body {
-    width: 22rem;
+    /* width: 45rem; */
+    width: 100%;
     margin: 1rem 0;
   }
 }
@@ -63,21 +73,31 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
+  .latestnews {
+    margin: 4rem 5rem;
+  }
   .news-img img {
-    width: 15rem;
+    /* width: 15rem; */
+    width: 100%;
   }
   .news .body {
-    width: 15rem;
+    /* width: 15rem; */
+    width: 100%;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .latestnews {
+    margin: 4rem 8rem;
+  }
   .news-img img {
-    width: 20rem;
+    /* width: 20rem; */
+    width: 100%;
   }
   .news .body {
-    width: 20rem;
+    /* width: 20rem; */
+    width: 100%;
   }
 }
 
@@ -91,22 +111,24 @@
     margin: 4rem 2rem;
   }
   .news-img img {
-    width: 18rem;
+    /* width: 18rem; */
+    width: 100%;
   }
   .news .body {
-    width: 18rem;
+    /* width: 18rem; */
+    width: 100%;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .latestnews {
-    margin: 4rem 6rem;
+    margin: 4rem 10rem;
   }
   .news-img img {
-    width: 20rem;
+    width: 33rem;
   }
   .news .body {
-    width: 20rem;
+    width: 33rem;
   }
 }
