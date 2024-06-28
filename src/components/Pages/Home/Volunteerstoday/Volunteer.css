@@ -1,0 +1,23 @@
+.formpage img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px -5px black;
+  margin-bottom: 4rem;
+}
+.volunterr button {
+  font-size: 1.5rem;
+  width: 25%;
+  padding: 1.5rem 1rem;
+  letter-spacing: 0.5rem;
+}
+.volunterr .form_entry {
+  background: transparent;
+}
+.volunterr {
+  background-color: #6969a9;
+}
+.volunterr .form_entry::placeholder {
+  color: white;
+}
+.volunterr input {
+  border: 2px solid #c1bfbf;
+}

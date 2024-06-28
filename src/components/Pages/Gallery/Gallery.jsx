@@ -5,6 +5,7 @@ import Home from "../Home/Home/Home";
 import { Galleryimg } from "../../Data/Data";
 import Gallerycollect from "./Gallerycollect";
 import "./Gallery.css";
+import Volunteer from "../Home/Volunteerstoday/Volunteer";
 
 export default function Gallery() {
   return (
@@ -15,7 +16,7 @@ export default function Gallery() {
           return <Gallerycollect key={index} img={val.img} />;
         })}
       </div>
-
+      <Volunteer />
       {/* <Volunteerstoday /> */}
     </Layout>
   );

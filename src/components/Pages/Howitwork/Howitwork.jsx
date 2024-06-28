@@ -5,6 +5,7 @@ import Latestdonation from "../Home/Latestdonation/Latestdonation";
 import Volunteerstoday from "../Home/Volunteerstoday/Volunteerstoday";
 import Fundraisercamp from "../Howitwork/Fundraisercamp";
 import Familyfrnds from "../Howitwork/Familyfrnds";
+import "../Home/Volunteerstoday/Volunteer";
 
 export default function Howitwork() {
   return (
@@ -13,6 +14,7 @@ export default function Howitwork() {
       <Fundraisercamp />
       <Familyfrnds />
       <Latestdonation />
+      <Volunteer />
       {/* <Volunteerstoday /> */}
     </Layout>
   );
