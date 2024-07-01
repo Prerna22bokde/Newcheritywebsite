@@ -7,7 +7,7 @@ export default function Formtext() {
     <div className="formtext">
       <div className="volunterr">
         <div className="formpage">
-          <div className="text-form">
+          <div className="formtext">
             <div className="text-box">
               {/* <img src={icon} alt="error_icon" /> */}
               <h3>Sorry! Something went wrong</h3>
@@ -18,15 +18,27 @@ export default function Formtext() {
             </div>
           </div>
           <div className="form">
-            <input className="form_entry" placeholder="Your Name" type="text" />
             <input
               className="form_entry"
+              id="in"
+              placeholder="Your Name"
+              type="text"
+            />
+            <input
+              className="form_entry"
+              id="in"
               placeholder="Your Email"
               type="email"
             />
-            <input className="form_entry" placeholder="Subject" type="text" />
+            <input
+              className="form_entry"
+              id="in"
+              placeholder="Subject"
+              type="text"
+            />
             <textarea
               className="form_entry"
+              id="in"
               placeholder="Message"
               type="text"
               rows={5}

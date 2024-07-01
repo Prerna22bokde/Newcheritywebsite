@@ -18,6 +18,9 @@
   width: 90%;
   padding: 1rem 1rem;
 }
+#in::placeholder {
+  color: grey;
+}
 .form_entry::placeholder {
   color: grey;
   font-size: 1.5rem;
@@ -68,7 +71,10 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .formtext .form {
-    margin-top: 4rem;
+    margin-top: 3rem;
+  }
+  .formtext .text-box {
+    margin-bottom: 1rem;
   }
 }
 
