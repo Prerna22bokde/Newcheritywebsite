@@ -11,7 +11,6 @@ export default function Contact() {
       <Home />
       {/* <Formpage /> */}
       <Formtext />
-      <Footer />
     </Layout>
   );
 }
