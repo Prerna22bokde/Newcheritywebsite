@@ -6,6 +6,7 @@ import Latestdonation from "../Latestdonation/Latestdonation";
 import Successstory from "../Successstory/Successstory";
 import Latestnews from "../Latestnews/Latestnews";
 import Volunteer from "../Volunteerstoday/Volunteer";
+
 // import Vonteerstoday from "../Volunteerstoday/Volunteerstoday";
 
 export default function Collectionpage() {
@@ -18,6 +19,7 @@ export default function Collectionpage() {
       <Successstory />
       <Latestnews />
       <Volunteer></Volunteer>
+
       {/* <Vonteerstoday /> */}
     </>
   );

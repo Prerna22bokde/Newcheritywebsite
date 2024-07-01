@@ -43,6 +43,16 @@
 .page {
   margin: 8rem 10rem;
 }
+.photoarrow {
+  font-size: 2rem;
+  display: grid;
+  cursor: pointer;
+  justify-content: right;
+  position: absolute;
+  margin: -10rem 2rem;
+  color: white;
+  height: 7rem;
+}
 
 /* ------------------media query */
 /* Extra small devices (phones, 600px and down) */
@@ -101,6 +111,7 @@
   .page img {
     height: 110vh;
     object-fit: cover;
+    width: 100%;
   }
 }
 

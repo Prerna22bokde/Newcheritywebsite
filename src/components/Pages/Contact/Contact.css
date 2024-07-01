@@ -3,6 +3,9 @@
   grid-template-columns: repeat(2, 1fr);
   padding: 9rem 10rem;
 }
+.formtext .form {
+  margin-top: 0rem;
+}
 .form {
   display: grid;
 }
@@ -47,7 +50,9 @@
 .text-box p {
   font-size: 1.2rem;
 }
-
+.formtext .volunterr {
+  background-color: white;
+}
 /* ------------------media query */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 450px) {
@@ -58,6 +63,9 @@
   }
   .text-box {
     height: 35vh !important;
+  }
+  .formpage {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -98,6 +106,9 @@
     height: 50vh;
     margin-left: 0rem;
   }
+  .formtext .form {
+    margin-top: 4rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -117,6 +128,9 @@
   }
   .text-box {
     margin-left: 2rem;
+  }
+  .formtext .form {
+    margin-top: 0rem;
   }
 }
 

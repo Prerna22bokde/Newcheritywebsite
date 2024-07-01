@@ -6,6 +6,7 @@ import Volunteerstoday from "../Home/Volunteerstoday/Volunteerstoday";
 import Fundraisercamp from "../Howitwork/Fundraisercamp";
 import Familyfrnds from "../Howitwork/Familyfrnds";
 import "../Home/Volunteerstoday/Volunteer";
+import Volunteer from "../Home/Volunteerstoday/Volunteer";
 
 export default function Howitwork() {
   return (

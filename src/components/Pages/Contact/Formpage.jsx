@@ -1,12 +1,13 @@
 import React from "react";
 import icon from "../../Images/error_icon.png";
 import "./Contact.css";
+import "../Home/Volunteerstoday/Volunteer.css";
 
 export default function Formpage() {
   return (
     <>
       <div className="formpage">
-        <div className="form">
+        {/* <div className="form">
           <input className="form_entry" placeholder="Your Name" type="text" />
           <input className="form_entry" placeholder="Your Email" type="email" />
           <input className="form_entry" placeholder="Subject" type="text" />
@@ -18,7 +19,7 @@ export default function Formpage() {
             cols={10}
           />
           <button>SEND MESSAGE</button>
-        </div>
+        </div> */}
         <div className="text-form">
           <div className="text-box">
             <img src={icon} alt="error_icon" />

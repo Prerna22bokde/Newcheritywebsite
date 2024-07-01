@@ -10,6 +10,7 @@ import "./Home.css";
 
 export default function Home() {
   const imgData = [slide1, slide2, slide3];
+
   const [slider, setSlider] = useState(0);
 
   const handleplus = () => {
