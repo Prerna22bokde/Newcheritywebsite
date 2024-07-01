@@ -67,6 +67,9 @@
   .formpage {
     grid-template-columns: repeat(1, 1fr);
   }
+  .formtext .form {
+    margin-top: 4rem;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -105,9 +108,6 @@
     padding: 5rem 3rem;
     height: 50vh;
     margin-left: 0rem;
-  }
-  .formtext .form {
-    margin-top: 4rem;
   }
 }
 
