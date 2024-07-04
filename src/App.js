@@ -22,6 +22,7 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="*" element={<div>Error 404 page is not found</div>} />
         </Routes>
       </BrowserRouter>
     </div>
