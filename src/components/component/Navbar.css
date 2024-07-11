@@ -5,6 +5,20 @@
   font-family: muli, sans-serif;
 }
 
+/* seprate translator */
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  /* left: 0; */
+  top: 0;
+  height: 39px;
+  width: 100%;
+  /* z-index: 10000001; */
+  position: fixed;
+  border: none;
+  /* border-bottom: 1px solid #6B90DA; */
+  margin: 0;
+  /* box-shadow: 0 0 8px 1px #999; */
+}
+
 a {
   text-decoration: none;
 }
@@ -155,4 +169,39 @@ ul li {
 
 /* 2xl */
 @media (max-width: 1536px) {
+}
+
+/* --------Translator CSS---------- */
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  left: 0;
+  top: 0;
+  height: 39px;
+  width: 100%;
+  z-index: 10000001;
+  position: fixed;
+  border: none;
+  display: none !important;
+}
+.VIpgJd-ZVi9od-ORHb {
+  display: none;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:link,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:visited,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:hover,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+  font-size: 12px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  display: none;
+}
+.goog-te-gadget .goog-te-combo {
+  padding: 0.9rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: math;
+  margin-top: 2rem;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.5);
+  color: black;
 }

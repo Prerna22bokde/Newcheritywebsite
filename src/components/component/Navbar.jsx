@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../Images/logo.png";
-
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 
@@ -42,6 +41,7 @@ export default function Navbar() {
             <li>
               <NavLink to="/Contact">Contact</NavLink>
             </li>
+            <div id="google_translate_element"></div>
           </ul>
         </div>
       </div>

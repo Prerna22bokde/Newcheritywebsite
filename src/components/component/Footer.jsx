@@ -9,13 +9,7 @@ import { IoMdMail } from "react-icons/io";
 import { FaCalendarAlt } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { MdMarkUnreadChatAlt } from "react-icons/md";
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBIcon,
-} from "mdb-react-ui-kit";
+import { MDBFooter } from "mdb-react-ui-kit";
 
 export default function Footer() {
   return (
