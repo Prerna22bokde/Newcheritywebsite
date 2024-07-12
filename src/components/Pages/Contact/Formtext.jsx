@@ -1,5 +1,6 @@
 import React from "react";
 // import "../Home/Volunteerstoday/Volunteer.css";
+import icon from "../../Images/error_icon.png";
 import "./Contact.css";
 
 export default function Formtext() {
@@ -9,7 +10,7 @@ export default function Formtext() {
         <div className="formpage">
           <div className="formtext">
             <div className="text-box">
-              {/* <img src={icon} alt="error_icon" /> */}
+              <img src={icon} alt="error_icon" />
               <h3>Sorry! Something went wrong</h3>
               <p>
                 This page didn't Google Maps correctly. See the Javascript

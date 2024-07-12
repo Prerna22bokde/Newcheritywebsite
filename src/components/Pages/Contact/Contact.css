@@ -65,7 +65,8 @@
     font-size: 1.5rem;
   }
   .text-box {
-    height: 35vh !important;
+    /* height: 35vh !important; */
+    height: 40vh !important;
   }
   .formpage {
     grid-template-columns: repeat(1, 1fr);
