@@ -166,6 +166,14 @@ ul li {
     font-weight: 600;
     font-size: 1.5rem;
   }
+
+  /* ---------translator----- */
+  .goog-te-gadget .goog-te-combo {
+    padding: 0.9rem 1rem;
+    font-size: 1.2rem;
+
+    margin-right: 6rem;
+  }
 }
 
 /* xl */

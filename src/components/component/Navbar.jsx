@@ -13,6 +13,7 @@ export default function Navbar() {
           <img src={logo} alt="logo" />
           <h1>CharitiSite</h1>
         </div>
+
         <div
           className="hamburger"
           onClick={() => {
@@ -23,6 +24,7 @@ export default function Navbar() {
         </div>
         <div className={showlist ? "mobile_navlist" : "Nav-list"}>
           <ul>
+            <div id="google_translate_element"></div>
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
@@ -41,7 +43,6 @@ export default function Navbar() {
             <li>
               <NavLink to="/Contact">Contact</NavLink>
             </li>
-            <div id="google_translate_element"></div>
           </ul>
         </div>
       </div>
