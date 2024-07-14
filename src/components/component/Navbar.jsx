@@ -24,7 +24,9 @@ export default function Navbar() {
         </div>
         <div className={showlist ? "mobile_navlist" : "Nav-list"}>
           <ul>
-            <div id="google_translate_element"></div>
+            <li>
+              <div id="google_translate_element"></div>
+            </li>
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
