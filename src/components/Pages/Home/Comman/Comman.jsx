@@ -10,7 +10,7 @@ export default function Comman(props) {
           of the card's cotent.
         </p>
         <p className="latest-link">
-          <a href="#">View All Fundraisers</a>
+          <a href="/">View All Fundraisers</a>
         </p>
       </div>
     </>

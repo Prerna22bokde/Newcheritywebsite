@@ -30,7 +30,7 @@ export default function Footer() {
             Seperated they live in Bookmarksgrove right at the coast of the
             Semantics, a large language ocean.{" "}
           </p>
-          <a href="#">Read More</a>
+          <a href="/">Read More</a>
         </div>
 
         <div className="recent-blog">

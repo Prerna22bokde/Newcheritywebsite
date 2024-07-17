@@ -17,7 +17,7 @@ export default function Photopage() {
 
   useEffect(() => {
     const photoclear = setInterval(() => {
-      handleplus();
+      handleplus(photo);
     }, 5000);
     return () => clearInterval(photoclear);
   }, [photo]);
@@ -28,7 +28,7 @@ export default function Photopage() {
         <div className="page">
           {photopage.map((item, i) => (
             <div key={i} className={`${photo === i ? "block" : "hidden"}`}>
-              <img src={item} alt="image" />
+              <img src={item} alt="Kids" />
             </div>
           ))}
           <div className="photoarrow">

@@ -22,18 +22,21 @@ export default function Formtext() {
             <input
               className="form_entry"
               id="in"
+              name="name"
               placeholder="Your Name"
               type="text"
             />
             <input
               className="form_entry"
               id="in"
+              name="ename"
               placeholder="Your Email"
               type="email"
             />
             <input
               className="form_entry"
               id="in"
+              name="dname"
               placeholder="Subject"
               type="text"
             />

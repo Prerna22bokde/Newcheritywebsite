@@ -12,7 +12,7 @@ export default function Latestnewscard(props) {
           <p className="date">{props.date}</p>
           <p className="dis">{props.des}</p>
           <p>
-            <a href="#">Read More</a>
+            <a href="/">Read More</a>
           </p>
         </div>
       </div>

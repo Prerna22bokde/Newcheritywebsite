@@ -10,7 +10,7 @@ export default function Card(props) {
             <h3>{props.title}</h3>
             <p className="para">{props.para}</p>
             <p>
-              <a href="#">{props.link}</a>
+              <a href="/">{props.link}</a>
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function Latestdonationcard(props) {
             Donated <span>{props.amount}</span>
           </p>
           <p>
-            for<a href="#">{props.link}</a>
+            for<a href="/">{props.link}</a>
           </p>
         </div>
       </div>

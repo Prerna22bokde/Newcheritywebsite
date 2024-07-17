@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Layout from "../../../component/Layout";
+// import Layout from "../../../component/Layout";
 import slide1 from "../../../Images/slide1.jpg";
 import slide2 from "../../../Images/slide2.jpg";
 import slide3 from "../../../Images/slide3.jpeg";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
-import Collectionpage from "./Collectionpage";
+// import Collectionpage from "./Collectionpage";
 import "./Home.css";
 // ----------its a first-page-----
 
@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     const sliderClear = setInterval(() => {
-      handleplus();
+      handleplus(slider);
     }, 3000);
     return () => clearInterval(sliderClear);
   }, [slider]);
