@@ -187,7 +187,7 @@ ul li {
 }
 
 /* --------Translator CSS---------- */
-/* .VIpgJd-ZVi9od-ORHb-OEVmcd {
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
   left: 0;
   top: 0;
   height: 39px;
@@ -210,14 +210,14 @@ ul li {
   color: #444;
   text-decoration: none;
   display: none;
-} */
-/* .goog-te-gadget .goog-te-combo { */
-/* padding: 0.9rem 2rem; */
-/* padding: 0.9rem 0rem; */
-/* font-size: 1.5rem; */
-/* font-weight: 700; */
-/* font-family: math; */
-/* margin-top: 2rem; */
-/* box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.5); */
-/* color: black; */
-/* } */
+}
+.goog-te-gadget .goog-te-combo {
+  padding: 0.9rem 2rem;
+  padding: 0.9rem 0rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: math;
+  margin-top: 2rem;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.5);
+  color: black;
+}
